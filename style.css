@@ -1,0 +1,47 @@
+body {
+  background-image: url("images/pexels-pixabay-163185.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  text-align: center;
+}
+.container {
+  max-width: 600px;
+  display: block;
+  margin: 0px auto;
+  margin-top: 150px;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+  border-radius: 15px;
+}
+.output {
+  max-width: 600px;
+  height: fit-content;
+  display: block;
+  margin: 0px auto;
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+  border-radius: 0px 15px 15px 0px;
+  border-left: #392f2f solid;
+}
+.finder {
+  width: 80%;
+  padding: 10px;
+  color: #392f2f;
+  background-color: #e6d3a7;
+}
+.form-button {
+  width: 15%;
+  color: #e6d3a7;
+  background-color: #392f2f;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 10px;
+}
