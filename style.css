@@ -2,10 +2,13 @@ body {
   background-image: url("images/pexels-pixabay-163185.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  font-family: "Roboto", sans-serif;
+  font-family: "Chathura", sans-serif;
 }
 h1 {
   text-align: center;
+  font-size: 5em;
+  margin: 0px;
+  font-family: "Chathura", sans-serif;
 }
 .container {
   max-width: 600px;
@@ -15,6 +18,7 @@ h1 {
   background-color: rgba(255, 255, 255, 0.7);
   padding: 20px;
   border-radius: 15px;
+  font-family: "Chathura", sans-serif;
 }
 .output {
   max-width: 600px;
@@ -23,25 +27,41 @@ h1 {
   margin: 0px auto;
   margin-top: 20px;
   background-color: rgba(255, 255, 255, 0.7);
-  padding: 20px;
+  padding: 15px;
   border-radius: 0px 15px 15px 0px;
   border-left: #392f2f solid;
+  font-family: "Chathura", sans-serif;
+  font-size: 2.3em;
+  line-height: 30px;
 }
 .finder {
   width: 80%;
-  padding: 10px;
   color: #392f2f;
   background-color: #e6d3a7;
+  font-family: "Chathura", sans-serif;
+  font-size: 2em;
+  border: none;
 }
 .form-button {
   width: 15%;
   color: #e6d3a7;
   background-color: #392f2f;
-  padding: 10px;
+  padding: 20px;
   border-radius: 5px;
+  font-family: "Chathura", sans-serif;
+  line-height: 15px;
+  font-size: 2em;
+  border: none;
+  text-align: center;
 }
 
 footer {
   text-align: center;
   margin-top: 10px;
+  font-size: 2.1em;
+  color: #e6d3a7;
+}
+a {
+  color: #e6d3a7;
+  text-decoration: none;
 }
