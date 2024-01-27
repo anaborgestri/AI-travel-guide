@@ -12,26 +12,27 @@
       href="https://fonts.googleapis.com/css2?family=Chathura:wght@100;300;400;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI travel advisor</title>
   </head>
   <body>
     <div class="container">
       <h1>AI travel Advisor</h1>
-      <form>
+      <form id="travel-advise">
         <input
           type="text"
           class="finder"
           placeholder="Add the desired location (city or country)"
+          autofocus
           required
-          autofocus="off"
+          autocomplete="off"
+          id="user-input"
         />
-        <input type="submit" class="form-button" />
+        <input type="submit" id="form-button" />
       </form>
     </div>
-    <div class="output">
-      Visit the Palacio de belem <br />
-      Mosteiro dos jeronimos
-    </div>
+    <div class="output hidden" id="result"></div>
     <footer>
       Coded by
       <a href="https://github.com/anaborgestri" target="_blank">Ana Borges</a>
